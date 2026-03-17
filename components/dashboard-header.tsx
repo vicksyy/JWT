@@ -16,7 +16,10 @@ export function DashboardHeader({ user }: DashboardHeaderProps) {
             <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl xl:text-6xl">
               Bienvenido, {user.name}
             </h1>
-            <p className="max-w-2xl text-sm leading-7 text-white/62 sm:text-base">Panel privado con JWT.</p>
+            <p className="max-w-2xl text-sm leading-7 text-white/62 sm:text-base">
+              Tu panel privado reúne el acceso autenticado, los datos de sesión y el resumen
+              de la práctica.
+            </p>
           </div>
         </div>
 

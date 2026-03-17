@@ -27,8 +27,8 @@ const BAR_COLORS = [
 
 export function HtmlTagsChart({ data }: HtmlTagsChartProps) {
   return (
-    <div className="h-[420px] w-full min-w-0">
-      <ResponsiveContainer width="100%" height="100%">
+    <div className="mx-auto w-full max-w-[560px] min-w-[280px]">
+      <ResponsiveContainer width="100%" height={380} minWidth={280}>
         <BarChart
           data={data}
           layout="vertical"

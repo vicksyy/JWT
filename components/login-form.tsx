@@ -101,13 +101,13 @@ export function LoginForm() {
 
           <Button type="submit" className="w-full" size="lg" disabled={isPending}>
             {isPending ? <LoaderCircle className="size-4 animate-spin" /> : null}
-            Entrar al dashboard
+            Entrar
           </Button>
 
-          <div className="rounded-2xl border border-[#225560]/45 bg-[#225560]/18 p-4 text-sm text-white/82">
-            <p className="font-semibold">Demo</p>
-            <p>Usuario: admin@tomates.com</p>
-            <p>Contraseña: 1234</p>
+          <div className="px-1 text-sm">
+            <p className="font-medium text-[#8b8b95]">Credenciales demo:</p>
+            <p className="text-[#6f6f78]">Usuario: admin@tomates.com</p>
+            <p className="text-[#6f6f78]">Contraseña: 1234</p>
           </div>
         </form>
       </CardContent>

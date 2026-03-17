@@ -93,11 +93,6 @@ export const COURSE_FUNCTIONS = [
     name: "useRouter",
     icon: "navigation",
     description: "Permite redirigir y navegar entre páginas."
-  },
-  {
-    name: "fetch",
-    icon: "server",
-    description: "Conecta el frontend con APIs y rutas del servidor."
   }
 ] satisfies Array<{
   name: string;

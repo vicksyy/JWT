@@ -42,14 +42,14 @@ export default async function DashboardPage() {
         <DashboardHeader user={session.user} />
 
         <section className="grid gap-6 xl:grid-cols-[1.05fr_0.95fr]">
-          <section className="rounded-2xl border border-white/10 bg-[#171219]/84 p-7 shadow-panel backdrop-blur">
+          <section className="flex h-full flex-col rounded-2xl border border-white/10 bg-[#171219]/84 p-7 shadow-panel backdrop-blur">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FAF33E]">
               HTML
             </p>
             <h2 className="mt-3 text-2xl font-semibold text-white">15 etiquetas más usadas</h2>
             <p className="mt-2 text-sm text-white/62">Frecuencia de uso aproximada.</p>
 
-            <div className="mt-6 min-w-0">
+            <div className="mt-6 w-full min-w-0 self-center">
               <HtmlTagsChart data={HTML_TAG_USAGE} />
             </div>
           </section>
