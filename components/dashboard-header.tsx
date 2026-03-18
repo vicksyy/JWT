@@ -17,8 +17,7 @@ export function DashboardHeader({ user }: DashboardHeaderProps) {
               Bienvenido, {user.name}
             </h1>
             <p className="max-w-2xl text-sm leading-7 text-white/62 sm:text-base">
-              Tu panel privado reúne el acceso autenticado, los datos de sesión y el resumen
-              de la práctica.
+              Tu panel privado reúne el acceso autenticado y los datos de sesión.
             </p>
           </div>
         </div>
