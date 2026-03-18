@@ -12,7 +12,7 @@ export async function POST(request: Request) {
 
     if (email !== DEMO_USER.email || password !== DEMO_USER.password) {
       return NextResponse.json(
-        { error: "Credenciales incorrectas. Prueba con admin@tomates.com / 1234." },
+        { error: "Credenciales incorrectas." },
         { status: 401 }
       );
     }
